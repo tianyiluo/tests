@@ -1,0 +1,9 @@
+[
+'Low (<10%)': '#fff3b0',
+'Low - Medium (10-20%)': '#ffd208',
+'Medium - High (20-40%)': '#e85d04',
+'High (40-80%)': '#d00000',
+'Extremely High (>80%)': '#6a040f',
+'Arid and Low Water Use': '#d6ccc2'
+'No Data': '#686b6e'
+]
