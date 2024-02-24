@@ -1,0 +1,195 @@
+{
+  "name": "/Users/tianyiluo/Dropbox/Bluerisk/Python/gis/shp2pmtiles/outputs/pmtiles/bws_sample.pmtiles",
+  "format": "pbf",
+  "type": "overlay",
+  "description": "/Users/tianyiluo/Dropbox/Bluerisk/Python/gis/shp2pmtiles/outputs/pmtiles/bws_sample.pmtiles",
+  "version": "2",
+  "strategies": [
+    {
+      "tiny_polygons": 67
+    },
+    {
+      "tiny_polygons": 52
+    },
+    {
+      "tiny_polygons": 52
+    },
+    {
+      "tiny_polygons": 48
+    },
+    {
+      "tiny_polygons": 56
+    },
+    {
+      "tiny_polygons": 27
+    },
+    {}
+  ],
+  "generator": "tippecanoe v2.44.0",
+  "generator_options": "tippecanoe -zg '--projection=EPSG:4326' -o /Users/tianyiluo/Dropbox/Bluerisk/Python/gis/shp2pmtiles/outputs/pmtiles/bws_sample.pmtiles -l bws --detect-shared-borders --drop-densest-as-needed --force /Users/tianyiluo/Dropbox/Bluerisk/Python/gis/shp2json/outputs/bws_sample.json",
+  "antimeridian_adjusted_bounds": "65.916667,5.915999,97.775353,37.096401",
+  "vector_layers": [
+    {
+      "id": "bws",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 6,
+      "fields": {
+        "bws_label": "String",
+        "pfaf_id": "Number"
+      }
+    }
+  ],
+  "tilestats": {
+    "layerCount": 1,
+    "layers": [
+      {
+        "layer": "bws",
+        "count": 563,
+        "geometry": "Polygon",
+        "attributeCount": 2,
+        "attributes": [
+          {
+            "attribute": "bws_label",
+            "count": 7,
+            "type": "string",
+            "values": [
+              "Arid and Low Water Use",
+              "Extremely High (>80%)",
+              "High (40-80%)",
+              "Low (<10%)",
+              "Low - Medium (10-20%)",
+              "Medium - High (20-40%)",
+              "No Data"
+            ]
+          },
+          {
+            "attribute": "pfaf_id",
+            "count": 563,
+            "type": "number",
+            "values": [
+              451001,
+              451002,
+              451003,
+              451004,
+              451005,
+              451006,
+              451007,
+              451008,
+              451009,
+              452100,
+              452201,
+              452202,
+              452203,
+              452204,
+              452205,
+              452206,
+              452207,
+              452208,
+              452209,
+              452300,
+              452400,
+              452411,
+              452412,
+              452413,
+              452414,
+              452415,
+              452416,
+              452417,
+              452418,
+              452419,
+              452420,
+              452421,
+              452422,
+              452423,
+              452424,
+              452425,
+              452426,
+              452427,
+              452428,
+              452429,
+              452431,
+              452432,
+              452433,
+              452434,
+              452435,
+              452436,
+              452437,
+              452438,
+              452439,
+              452441,
+              452442,
+              452443,
+              452444,
+              452445,
+              452446,
+              452447,
+              452448,
+              452449,
+              452451,
+              452452,
+              452453,
+              452454,
+              452455,
+              452456,
+              452457,
+              452458,
+              452459,
+              452461,
+              452462,
+              452463,
+              452464,
+              452465,
+              452466,
+              452467,
+              452468,
+              452469,
+              452471,
+              452472,
+              452473,
+              452474,
+              452475,
+              452476,
+              452477,
+              452478,
+              452479,
+              452480,
+              452481,
+              452482,
+              452483,
+              452484,
+              452485,
+              452486,
+              452487,
+              452488,
+              452489,
+              452491,
+              452492,
+              452493,
+              452494,
+              452495
+            ],
+            "min": 451001,
+            "max": 458002
+          }
+        ]
+      }
+    ]
+  },
+  "geometries": [
+    "Polygon"
+  ],
+  "layer_names": [
+    "bws"
+  ],
+  "center": [
+    24.5010856,
+    87.1875
+  ],
+  "bounds": [
+    65.9166667,
+    5.9159986,
+    97.7753532,
+    37.0964006
+  ]
+}
